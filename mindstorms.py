@@ -7,6 +7,8 @@ def drawing_turtles():
 
     brad()
     jon()
+    bjorn()
+
     time.sleep(2)
 
     window.exitonclick()
@@ -25,5 +27,14 @@ def jon():
     jon.speed(3)
     jon.circle(100)
 
+def bjorn():
+    bjorn = turtle.Turtle()
+    bjorn.color("red")
+    bjorn.speed(4)
+    bjorn.forward(200)
+    bjorn.left(60)
+    bjorn.backward(200)
+    bjorn.left(60)
+    bjorn.forward(200)
 
 drawing_turtles()
