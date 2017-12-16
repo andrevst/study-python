@@ -1,12 +1,17 @@
 import turtle
 import time
 
-def draw_square():
+def drawing_turtles():
     window = turtle.Screen()
     window.bgcolor("black")
 
+    brad()
+    jon()
     time.sleep(2)
 
+    window.exitonclick()
+
+def brad():
     brad = turtle.Turtle()
     brad.color("green")
     brad.speed(2)
@@ -27,12 +32,12 @@ def draw_square():
     brad.forward(100)
     brad.right(45)
 
+def jon():
     jon = turtle.Turtle()
     jon.color("pink")
     jon.shape("arrow")
 
     jon.circle(100)
 
-    window.exitonclick()
 
-draw_square()
+drawing_turtles()
