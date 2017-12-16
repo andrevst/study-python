@@ -22,8 +22,7 @@ def brad():
 def jon():
     jon = turtle.Turtle()
     jon.color("pink")
-    jon.shape("arrow")
-
+    jon.speed(3)
     jon.circle(100)
 
 
