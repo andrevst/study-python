@@ -13,5 +13,11 @@ def check_shit(content):
     output = connection.read()
     print(output)
     connection.close()
+    if "true" in output:
+        print("Idiot, you wrote a shit.")
+    elif "false" in output:
+        print("No shit here.")
+    else:
+        print("Where is my file?")
 
 read_text()
