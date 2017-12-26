@@ -12,3 +12,4 @@ the_meaning_of_life = media.Movie("Monty Python's The Meaning of Life", "1983", 
 
 live_mostly = media.Movie("Monty Python Live (Mostly)", "2014", "In 2013, the Pythons lost a legal case to Mark Forstater, the producer of their second film, Holy Grail, over royalties for its musical adaptation Spamalot. They owed a combined 800,000 ($994,600) in legal fees and back royalties to Forstater. To pay these, a reunion show was proposed.", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Monty_Python_Live_%28Mostly%29.jpg/440px-Monty_Python_Live_%28Mostly%29.jpg", "https://youtu.be/yBcYuwlWFRM")
 
+print (life_of_brian.title, life_of_brian.year)
