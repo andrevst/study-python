@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 
 the_holy_grail = media.Movie("Monty Python and The Holy Grail","1975", "In 932 AD, King Arthur and his squire, Patsy, travel throughout Britain searching for men to join the Knights of the Round Table. In Arthur's travels, he recruits Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Galahad the Pure, and Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot, along with their squires and Robin's troubadours. Arthur leads the men to Camelot, but decide it is a silly place and set off elsewhere. As they turn away, God speaks to them and instruct Arthur to find the Holy Grail.", "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png", "https://youtu.be/urRkGvhXc8w")
@@ -14,3 +15,4 @@ live_mostly = media.Movie("Monty Python Live (Mostly)", "2014", "In 2013, the Py
 
 movies = [the_holy_grail, and_now_for_something_completely_different, life_of_brian, live_at_the_hollywood_bowl, the_meaning_of_life, live_mostly]
 
+fresh_tomatoes.open_movies_page(movies)
