@@ -15,4 +15,5 @@ live_mostly = media.Movie("Monty Python Live (Mostly)", "2014", "In 2013, the Py
 
 movies = [the_holy_grail, and_now_for_something_completely_different, life_of_brian, live_at_the_hollywood_bowl, the_meaning_of_life, live_mostly]
 
+print(media.Movie.__module__)
 fresh_tomatoes.open_movies_page(movies)
