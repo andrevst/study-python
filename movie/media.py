@@ -1,6 +1,8 @@
 import webbrowser
 
 class Movie():
+    """ This clas create a movie and shows its trailer. """
+
     def __init__ (self,title,year,sinopse,poster_img_url,trailer_youtube_url):
         self.title = title
         self.year = year
