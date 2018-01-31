@@ -2,6 +2,12 @@ import fresh_tomatoes
 import media
 
 the_holy_grail = media.Movie("Monty Python and The Holy Grail","1975", "In 932 AD, King Arthur and his squire, Patsy, travel throughout Britain searching for men to join the Knights of the Round Table. In Arthur's travels, he recruits Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Galahad the Pure, and Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot, along with their squires and Robin's troubadours. Arthur leads the men to Camelot, but decide it is a silly place and set off elsewhere. As they turn away, God speaks to them and instruct Arthur to find the Holy Grail.", "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png", "https://youtu.be/urRkGvhXc8w")
+the_holy_grail = media.Movie("Monty Python and The Holy Grail","1975",
+                             "932 AD, King Arthur travel throughout Britain"
+                             " searching the Knights of the Round Table. "
+                             "To find the Holy Grail.",
+                             "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png", # NOQA
+                             "https://youtu.be/urRkGvhXc8w")
 
 and_now_for_something_completely_different = media.Movie("And Now for Something Completely Different","1971","And Now for Something Completely Different is a 1971 British sketch comedy film based on the television comedy series Monty Python's Flying Circus featuring sketches from the first two series. The title was taken from a catchphrase used in the television show.","https://upload.wikimedia.org/wikipedia/en/e/ee/ANFSCD_poster.jpg","https://youtu.be/IDtepG8EvHE")
 
